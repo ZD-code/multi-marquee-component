@@ -1,0 +1,3 @@
+<select class="form-control" [id]="nameStr" xm-select-direction="down" [name]="nameStr" [attr.xm-select]="xmSelect">
+  <option *ngFor="let item of areaIds"  [value]="item.value">{{item.text}}</option>
+</select>
